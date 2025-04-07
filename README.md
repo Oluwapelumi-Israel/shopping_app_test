@@ -2,15 +2,10 @@
 
 A new Flutter project.
 
-## Getting Started
+## Two ways to run the implementation
 
-This project is a starting point for a Flutter application.
+1. The implementation can be run in a normal way through the virtual device.
+2. The implementation can also be run through the web by selecting the Chrome(web) device and a package called [device_preview_plus 2.3.4](https://pub.dev/packages/device_preview_plus)  
+is install to provide frames of different devices (ios, android)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
