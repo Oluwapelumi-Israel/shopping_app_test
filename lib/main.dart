@@ -1,14 +1,10 @@
 import 'package:device_preview_plus/device_preview_plus.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'views/home.dart';
 
 
 void main() => runApp(
-  DevicePreview(
-    enabled: !kReleaseMode,
-    builder: (context) => MyApp(), // Wrap your app
-  ),
+     MyApp(), // Wrap your app
 );
 
 class MyApp extends StatelessWidget {
@@ -19,7 +15,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      locale: DevicePreview.locale(context),
       title: 'Wallet',
       theme: ThemeData.light().copyWith(),
       home: Home(),
